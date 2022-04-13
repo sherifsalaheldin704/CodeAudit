@@ -1,0 +1,50 @@
+// ==UserScript==
+// @name         Crabada-Notifier-AndAutoClicker
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        https://play.crabada.com/*
+// @require http://code.jquery.com/jquery-3.4.1.min.js
+// @require https://cdn.ethers.io/lib/ethers-5.2.umd.min.js
+// @require https://crabada.lodosyazilim.com.tr/botters.js?v01
+// @grant        GM_notification
+// @grant        GM_addStyle
+// @run-at       document-idle
+// ==/UserScript==
+
+/* BOT SETTINGS  */
+var runmode='auto'; //mine,loot,auto
+var warmode='loot'; //mine,loot
+var minLootPoint=0; //0-12 ->
+/* BOT SETTINGS */
+
+/* LOOT SETTINGS */
+var noFactionAttack=true; //true,false
+var oppositeAttack=true; //true,
+var sameTeamAttack=false;
+var maxWin=false; //true,false
+var sendlootOff=true; //true,false
+/* LOOT SETTINGS */
+
+/* CAPTCHA SETTINGS */
+var captcha_coz=true;//true,false
+var clicklate = 0; //ms
+var clicklateplus=0; //ms
+
+var autoOK=true;//true,false
+var solveCount=3; //1,2,3 - Default 3 - For antiBot Protect
+/* CAPTCHA SETTINGS */
+
+
+/* RENT SETTINGS */
+
+var rentOrder = "battle_point"; //battle_point,time_point,price  //PS: time_point means mine_point
+
+var selecttavernrandom = true;
+var tavernrndmax = 6;
+
+var rentBP=237;
+var rentMP=66;
+var rentPrice=25;
+/* RENT SETTINGS */
