@@ -1,0 +1,18 @@
+{
+  "name": "Crabadooooor",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Auto reloader for Crabada",
+  "homepage_url": "https://www.satato.com",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://play.crabada.com/mine/start-looting*"
+      ],
+      "js": [
+        "inject.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
